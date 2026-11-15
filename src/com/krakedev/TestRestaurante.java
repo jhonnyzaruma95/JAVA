@@ -8,36 +8,36 @@ public class TestRestaurante {
 		
 	    System.out.println("=====Restaurante 1 : Creado=====");
 		
-		System.out.println("Nombre: "+ rest1.getNombre());
-		System.out.println("Direccion: " + rest1.getDireccion());
-		System.out.println("Calificacion: "+ rest1.getCalificacion());
+		System.out.println("Nombre: "+ rest1.nombre);
+		System.out.println("Direccion: " + rest1.direccion);
+		System.out.println("Calificacion: "+ rest1.calificaion);
 		
 		System.out.println("========Restaurante 1 : Valores asignados========");
-		rest1.setNombre("Broaster de goku");
-		rest1.setDireccion("Remigio crespo");
-		rest1.setCalificacion(9);
+		rest1.nombre = "Broaster de goku";
+		rest1.direccion = "Remigio crespo";
+		rest1.calificaion = 9;
 		
-		System.out.println("Nombre: "+ rest1.getNombre());
-		System.out.println("Direccion: " + rest1.getDireccion());
-		System.out.println("Calificacion: "+ rest1.getCalificacion());
+		System.out.println("Nombre: "+ rest1.nombre);
+		System.out.println("Direccion: " + rest1.direccion);
+		System.out.println("Calificacion: "+ rest1.calificaion);
 		
 		
         Restaurante rest2 = new Restaurante();
 		
 	    System.out.println("=====Restaurante 2 : Creado=====");
 		
-		System.out.println("Nombre: "+ rest2.getNombre());
-		System.out.println("Direccion: " + rest2.getDireccion());
-		System.out.println("Calificacion: "+ rest2.getCalificacion());
+		System.out.println("Nombre: "+ rest2.nombre);
+		System.out.println("Direccion: " + rest2.direccion);
+		System.out.println("Calificacion: "+ rest2.calificaion);
 		
 		System.out.println("========Restaurante 2 : Valores asignados========");
-		rest2.setNombre("Pollos la parada");
-		rest2.setDireccion("ordoñez lasso");
-		rest2.setCalificacion(5);
+		rest2.nombre = "Pollos la parada";
+		rest2.direccion = "ordoñez lasso";
+		rest2.calificaion = 5;
 		
-		System.out.println("Nombre: "+ rest2.getNombre());
-		System.out.println("Direccion: " + rest2.getDireccion());
-		System.out.println("Calificacion: "+ rest2.getCalificacion());
+		System.out.println("Nombre: "+ rest2.nombre);
+		System.out.println("Direccion: " + rest2.direccion);
+		System.out.println("Calificacion: "+ rest2.calificaion);
 	   
 
 	}
