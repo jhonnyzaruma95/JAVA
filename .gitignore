@@ -1,0 +1,3 @@
+.settings/ echo Java/ echo bin/ echo *.class/
+.project/ echo .classpath/
+.metadata/
