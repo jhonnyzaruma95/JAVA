@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 bin/
 .settings/
 .classpath
@@ -5,3 +6,8 @@ bin/
 *.class
 .metadata/
 Clases/
+=======
+.settings/ echo Java/ echo bin/ echo *.class/
+.project/ echo .classpath/
+.metadata/
+>>>>>>> f9d4e4edc104ecd2cc976a7dc0501fc69156cba2
